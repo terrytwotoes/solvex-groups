@@ -1,0 +1,32 @@
+.wrapper {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+}
+
+.col-30 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: row; */
+}
+
+.col-30 h1 {
+  display: block;
+  margin-right: auto;
+}
+
+.col-30 ul {
+  display: block;
+  flex-direction: row;
+}
+
+.col-70 {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
