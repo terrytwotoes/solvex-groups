@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import "./Navbar.css";
+import styles from "./Navbar.css";
+import backImg from "../../assests/Slider-1.png"
 
 export default function Navbar() {
   return (
+    <>
     <div className="nav-wrapper">
       <div className="nav-items">
       <ul>
@@ -18,5 +20,14 @@ export default function Navbar() {
       </ul>
       </div>
     </div>
+    <div className={styles.rootWapper}>
+      <img
+        className="img-fluid"
+        style={{ width: "100%", height: "auto" }}
+        src={backImg}
+        alt="NA"
+      />
+    </div>
+    </>
   );
 }
